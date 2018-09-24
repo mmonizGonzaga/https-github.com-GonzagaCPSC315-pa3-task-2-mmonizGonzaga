@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		311CFA26215469D4008E07C7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA25215469D4008E07C7 /* main.swift */; };
+		311CFA2D215469E6008E07C7 /* hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA2C215469E6008E07C7 /* hero.swift */; };
+		311CFA2F215469F4008E07C7 /* monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA2E215469F4008E07C7 /* monster.swift */; };
+		311CFA3121546A03008E07C7 /* warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA3021546A03008E07C7 /* warrior.swift */; };
+		311CFA3321546A72008E07C7 /* sorceress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA3221546A72008E07C7 /* sorceress.swift */; };
+		311CFA3521546A81008E07C7 /* thief.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA3421546A81008E07C7 /* thief.swift */; };
+		311CFA3921546AAF008E07C7 /* ogre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA3821546AAF008E07C7 /* ogre.swift */; };
+		311CFA3B21546AC4008E07C7 /* gremlin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA3A21546AC4008E07C7 /* gremlin.swift */; };
+		311CFA3D21546AD5008E07C7 /* skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA3C21546AD5008E07C7 /* skeleton.swift */; };
+		311CFA4121546E52008E07C7 /* dungeonCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA4021546E52008E07C7 /* dungeonCharacter.swift */; };
+		311CFA4321547FD8008E07C7 /* herosVmonsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CFA4221547FD8008E07C7 /* herosVmonsters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,16 @@
 /* Begin PBXFileReference section */
 		311CFA22215469D4008E07C7 /* PA3 part 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PA3 part 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		311CFA25215469D4008E07C7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		311CFA2C215469E6008E07C7 /* hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hero.swift; sourceTree = "<group>"; };
+		311CFA2E215469F4008E07C7 /* monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monster.swift; sourceTree = "<group>"; };
+		311CFA3021546A03008E07C7 /* warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warrior.swift; sourceTree = "<group>"; };
+		311CFA3221546A72008E07C7 /* sorceress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sorceress.swift; sourceTree = "<group>"; };
+		311CFA3421546A81008E07C7 /* thief.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thief.swift; sourceTree = "<group>"; };
+		311CFA3821546AAF008E07C7 /* ogre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ogre.swift; sourceTree = "<group>"; };
+		311CFA3A21546AC4008E07C7 /* gremlin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gremlin.swift; sourceTree = "<group>"; };
+		311CFA3C21546AD5008E07C7 /* skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skeleton.swift; sourceTree = "<group>"; };
+		311CFA4021546E52008E07C7 /* dungeonCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dungeonCharacter.swift; sourceTree = "<group>"; };
+		311CFA4221547FD8008E07C7 /* herosVmonsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = herosVmonsters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,16 @@
 			isa = PBXGroup;
 			children = (
 				311CFA25215469D4008E07C7 /* main.swift */,
+				311CFA2C215469E6008E07C7 /* hero.swift */,
+				311CFA4021546E52008E07C7 /* dungeonCharacter.swift */,
+				311CFA4221547FD8008E07C7 /* herosVmonsters.swift */,
+				311CFA2E215469F4008E07C7 /* monster.swift */,
+				311CFA3021546A03008E07C7 /* warrior.swift */,
+				311CFA3221546A72008E07C7 /* sorceress.swift */,
+				311CFA3421546A81008E07C7 /* thief.swift */,
+				311CFA3821546AAF008E07C7 /* ogre.swift */,
+				311CFA3A21546AC4008E07C7 /* gremlin.swift */,
+				311CFA3C21546AD5008E07C7 /* skeleton.swift */,
 			);
 			path = "PA3 part 2";
 			sourceTree = "<group>";
@@ -119,7 +149,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				311CFA3321546A72008E07C7 /* sorceress.swift in Sources */,
+				311CFA3921546AAF008E07C7 /* ogre.swift in Sources */,
+				311CFA3D21546AD5008E07C7 /* skeleton.swift in Sources */,
+				311CFA2F215469F4008E07C7 /* monster.swift in Sources */,
 				311CFA26215469D4008E07C7 /* main.swift in Sources */,
+				311CFA3121546A03008E07C7 /* warrior.swift in Sources */,
+				311CFA4121546E52008E07C7 /* dungeonCharacter.swift in Sources */,
+				311CFA3521546A81008E07C7 /* thief.swift in Sources */,
+				311CFA3B21546AC4008E07C7 /* gremlin.swift in Sources */,
+				311CFA2D215469E6008E07C7 /* hero.swift in Sources */,
+				311CFA4321547FD8008E07C7 /* herosVmonsters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +282,11 @@
 		311CFA2A215469D4008E07C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FCP7SDTKW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -252,9 +294,11 @@
 		311CFA2B215469D4008E07C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FCP7SDTKW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
